@@ -2,7 +2,7 @@
 
 ## Reference
 
-- - https://mp.weixin.qq.com/s/JpcjrlmhH40X1HYjCPvBkA
+- https://mp.weixin.qq.com/s/JpcjrlmhH40X1HYjCPvBkA
 
 ## 一. 开发工具
 
