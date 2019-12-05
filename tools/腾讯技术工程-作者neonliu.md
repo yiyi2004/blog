@@ -2,53 +2,53 @@
 
 ## Reference
 
-- https://mp.weixin.qq.com/s/JpcjrlmhH40X1HYjCPvBkA
+- - https://mp.weixin.qq.com/s/JpcjrlmhH40X1HYjCPvBkA
 
 ## 一. 开发工具
 
-2、sql2go
+1、sql2go
 
 用于将 sql 语句转换为 golang 的 struct. 使用 ddl 语句即可。
 
 例如对于创建表的语句: show create table xxx. 将输出的语句，直接粘贴进去就行。
 
-http://stming.cn/tool/sql2go.html
+- http://stming.cn/tool/sql2go.html
 
 2、toml2go
 
 用于将编码后的 toml 文本转换问 golang 的 struct.
 
-https://xuri.me/toml-to-go/
+- https://xuri.me/toml-to-go/
 
 3、curl2go
 
 用来将 curl 命令转化为具体的 golang 代码.
 
-https://mholt.github.io/curl-to-go/
+- https://mholt.github.io/curl-to-go/
 
 4、json2go
 
 用于将 json 文本转换为 struct.
 
-https://mholt.github.io/json-to-go/
+- https://mholt.github.io/json-to-go/
 
 5、mysql 转 ES 工具
 
-http://www.ischoolbar.com/EsParser/
+- http://www.ischoolbar.com/EsParser/
 
 6、golang
 
 模拟模板的工具，在支持泛型之前，可以考虑使用。
 
-https://github.com/cheekybits/genny
+- https://github.com/cheekybits/genny
 
 7、查看某一个库的依赖情况，类似于 go list 功能
 
-https://github.com/KyleBanks/depth
+- https://github.com/KyleBanks/depth
 
 8、一个好用的文件压缩和解压工具，集成了 zip，tar 等多种功能，主要还有跨平台。
 
-https://github.com/mholt/archiver
+- https://github.com/mholt/archiver
 
 9、go 内置命令
 
@@ -58,31 +58,31 @@ go vet 可以检查代码不符合 golang 规范的地方。
 
 10、热编译工具
 
-https://github.com/silenceper/gowatch
+- https://github.com/silenceper/gowatch
 
 11、revive
 
 golang 代码质量检测工具
 
-https://github.com/mgechev/revive
+- https://github.com/mgechev/revive
 
 12、Go Callvis
 
 golang 的代码调用链图工具
 
-https://github.com/TrueFurby/go-callvis
+- https://github.com/TrueFurby/go-callvis
 
 13、Realize
 
 开发流程改进工具
 
-https://github.com/oxequa/realize
+- https://github.com/oxequa/realize
 
 14、Gotests
 
 自动生成测试用例工具
 
-https://github.com/cweill/gotests
+- https://github.com/cweill/gotests
 
 
 ## 二.调试工具
@@ -93,15 +93,15 @@ https://github.com/cweill/gotests
 
 perf 工具和 go-torch 工具，快捷定位程序问题.
 
-https://github.com/uber-archive/go-torch
+- https://github.com/uber-archive/go-torch
 
-https://github.com/google/gops
+- https://github.com/google/gops
 
 2、dlv 远程调试
 
 基于 goland+dlv 可以实现远程调式的能力.
 
-https://github.com/go-delve/delve
+- https://github.com/go-delve/delve
 
 提供了对 golang 原生的支持，相比 gdb 调试，简单太多。
 
@@ -109,7 +109,7 @@ https://github.com/go-delve/delve
 
 goproxy 代理，支持多种协议，支持 ssh 穿透和 kcp 协议.
 
-https://github.com/snail007/goproxy
+- https://github.com/snail007/goproxy
 
 4、抓包工具
 
@@ -118,189 +118,214 @@ redis，mongodb.
 
 基于这个工具，我们开发了 qapp 协议的抓包。
 
-https://github.com/40t/go-sniffer
+- https://github.com/40t/go-sniffer
 
 5、反向代理工具，快捷开放内网端口供外部使用。
 
 ngrok 可以让内网服务外部调用
 
-https://ngrok.com/
+- https://ngrok.com/
 
-https://github.com/inconshreveable/ngrok
+- https://github.com/inconshreveable/ngrok
 
 6、配置化生成证书
 
 从根证书，到业务侧证书一键生成.
 
-https://github.com/cloudflare/cfssl
+- https://github.com/cloudflare/cfssl
 
 7、免费的证书获取工具
 
 基于 acme 协议，从 letsencrypt 生成免费的证书，有效期 1 年，可自动续期。
 
-https://github.com/Neilpang/acme.sh
+- https://github.com/Neilpang/acme.sh
 
 8、开发环境管理工具，单机搭建可移植工具的利器。支持多种虚拟机后端。
 
 vagrant常被拿来同 docker 相比，值得拥有。
 
-https://github.com/hashicorp/vagrant
+- https://github.com/hashicorp/vagrant
 
 9、轻量级容器调度工具
 
 nomad 可以非常方便的管理容器和传统应用，相比 k8s 来说，简单不要太多.
 
-https://github.com/hashicorp/nomad
+- https://github.com/hashicorp/nomad
 
 10、敏感信息和密钥管理工具
 
-https://github.com/hashicorp/vault
+- https://github.com/hashicorp/vault
 
 11、高度可配置化的 http 转发工具，基于 etcd 配置。
 
-https://github.com/gojek/weaver
+- https://github.com/gojek/weaver
 
 12、进程监控工具 supervisor
 
-https://www.jianshu.com/p/39b476e808d8
+- https://www.jianshu.com/p/39b476e808d8
 
 13、基于procFile进程管理工具. 相比 supervisor 更加简单。
 
-https://github.com/ddollar/foreman
+- https://github.com/ddollar/foreman
 
-14、基于 http，https，websocket 的调试代理工具，配置功能丰富。在线教育的 nohost web 调试工具，基于此开发.
+14、基于 http，- https，websocket 的调试代理工具，配置功能丰富。在线教育的 nohost web 调试工具，基于此开发.
 
-https://github.com/avwo/whistle
+- https://github.com/avwo/whistle
 
 15、分布式调度工具
 
-https://github.com/shunfei/cronsun/blob/master/README_ZH.md
+- https://github.com/shunfei/cronsun/blob/master/README_ZH.md
 
-https://github.com/ouqiang/gocron
+- https://github.com/ouqiang/gocron
 
 16、自动化运维平台 Gaia
 
-https://github.com/gaia-pipeline/gaia
+- https://github.com/gaia-pipeline/gaia
 
 ## 三. 网络工具
 
 ## 四. 常用网站
 
-go 百科全书: https://awesome-go.com/
+go 百科全书: 
 
-json 解析: https://www.json.cn/
+- https://awesome-go.com/
 
-出口 IP: https://ipinfo.io/
+json 解析: 
 
-redis 命令: http://doc.redisfans.com/
+- https://www.json.cn/
+
+出口 IP: 
+
+- https://ipinfo.io/
+
+redis 命令: 
+
+- http://doc.redisfans.com/
 
 ES 命令首页: 
 
-https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html
+- https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html
 
-UrlEncode: http://tool.chinaz.com/Tools/urlencode.aspx
+UrlEncode: 
 
-Base64: https://tool.oschina.net/encrypt?type=3
+- http://tool.chinaz.com/Tools/urlencode.aspx
 
-Guid: https://www.guidgen.com/
+Base64: 
 
-常用工具: http://www.ofmonkey.com/
+- https://tool.oschina.net/encrypt?type=3
+
+Guid: 
+
+- https://www.guidgen.com/
+
+常用工具: 
+
+- http://www.ofmonkey.com/
 
 ## 五. golang 常用库
 
 ### 日志
 
-https://github.com/Sirupsen/logrus
+- https://github.com/Sirupsen/logrus
 
-https://github.com/uber-go/zap
+- https://github.com/uber-go/zap
 
 配置
 
 兼容 json，toml，yaml，hcl 等格式的日志库.
 
-https://github.com/spf13/viper
+- https://github.com/spf13/viper
 
 ### 存储
 
-mysql: https://github.com/go-xorm/xorm
+mysql:
 
-es: https://github.com/elastic/elasticsearch
+- https://github.com/go-xorm/xorm
 
-redis: https://github.com/gomodule/redigo
+es: 
 
-mongo: https://github.com/mongodb/mongo-go-driver
+- https://github.com/elastic/elasticsearch
 
-kafka: https://github.com/Shopify/sarama
+redis:
+
+- https://github.com/gomodule/redigo
+
+mongo: 
+
+- https://github.com/mongodb/mongo-go-driver
+
+kafka: 
+
+- https://github.com/Shopify/sarama
 
 ### 数据结构
 
-https://github.com/emirpasic/gods
+- https://github.com/emirpasic/gods
 
 ### 命令行
 
-https://github.com/spf13/cobra
+- https://github.com/spf13/cobra
 
 ### 框架
 
-https://github.com/grpc/grpc-go
+- https://github.com/grpc/grpc-go
 
-https://github.com/gin-gonic/gin
+- https://github.com/gin-gonic/gin
 
 ### 并发
 
-https://github.com/Jeffail/tunny
+- https://github.com/Jeffail/tunny
 
-https://github.com/benmanns/goworker
+- https://github.com/benmanns/goworker
 
 现在我们框架在用的，虽然 star 不多，但是确实好用，当然还可以更好用.
 
-https://github.com/rafaeldias/async
+- https://github.com/rafaeldias/async
 
 ### 工具
 
 定义了实用的判定类，以及针对结构体的校验逻辑，避免业务侧写复杂的代码.
 
-https://github.com/asaskevich/govalidator
+- https://github.com/asaskevich/govalidator
 
-https://github.com/bytedance/go-tagexpr
+- https://github.com/bytedance/go-tagexpr
 
 protobuf 文件动态解析的接口，可以实现反射相关的能力。
 
-https://github.com/jhump/protoreflect
+- https://github.com/jhump/protoreflect
 
 ### 表达式引擎工具
 
-https://github.com/Knetic/govaluate
+- https://github.com/Knetic/govaluate
 
-https://github.com/google/cel-go
+- https://github.com/google/cel-go
 
 ### 字符串处理
 
-https://github.com/huandu/xstrings
+- https://github.com/huandu/xstrings
 
 ### ratelimit 工具
 
-https://github.com/uber-go/ratelimit
+- https://github.com/uber-go/ratelimit
 
-https://blog.csdn.net/chenchongg/article/details/85342086
+- https://blog.csdn.net/chenchongg/article/details/85342086
 
-https://github.com/juju/ratelimit
+- https://github.com/juju/ratelimit
 
 ### golang 熔断的库
 
 熔断除了考虑频率限制，还要考虑 qps，出错率等其他东西.
 
-https://github.com/afex/hystrix-go
+- https://github.com/afex/hystrix-go
 
-https://github.com/sony/gobreaker
+- https://github.com/sony/gobreaker
 
 ### 表格
 
-https://github.com/chenjiandongx/go-echarts
+- https://github.com/chenjiandongx/go-echarts
 
 ### tail 工具库
 
-https://github.com/hpcloud/taglshi
+- https://github.com/hpcloud/taglshi
 
 我最近发现做成 web 应用还挺好的，只要有浏览器，有 docker 就能够拉取镜像，然后竟可以运行在自己的浏览器上。
-
