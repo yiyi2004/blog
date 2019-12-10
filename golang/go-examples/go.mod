@@ -12,7 +12,7 @@ require (
 	github.com/nats-io/nats.go v1.8.1
 	github.com/srfrog/dict v0.0.2
 	github.com/stretchr/testify v1.4.0 // indirect
-	github.com/ugorji/go/codec v1.1.7 // indirect
+	github.com/ugorji/go v1.1.7 // indirect
 	golang.org/x/sys v0.0.0-20191010194322-b09406accb47 // indirect
 	gopkg.in/yaml.v2 v2.2.4 // indirect
 )
