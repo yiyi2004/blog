@@ -1,0 +1,9 @@
+/math/*.log
+/math/*.aux
+/math/*.tex
+/math/*.synctex.gz
+
+/math/*/*.log
+/math/*/*.aux
+/math/*/*.tex
+/math/*/*.synctex.gz
